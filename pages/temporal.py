@@ -24,7 +24,7 @@ layout = dbc.Container([
                             dcc.Dropdown(
                                 id='franja-selector-dropdown',
                                 options=[{'label': franja, 'value': franja} for franja in available_franjas],
-                                value=['Turno A', 'Turno D'], 
+                                value=['Turno A', 'Turno D', 'Turno A y B'],  
                                 multi=True,
                                 placeholder="Seleccione una o más franjas..."
                             )
