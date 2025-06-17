@@ -34,5 +34,9 @@ app.layout = html.Div([
 
 # Ejecutar la app
 if __name__ == "__main__":
-    app.run(debug=True)
+    # El host='0.0.0.0' hace que la app sea visible en tu red local.
+    # El puerto 8050 es el predeterminado, puedes cambiarlo si lo necesitas.
+    app.run(host='0.0.0.0', port=8050, debug=True)
 
+    # Para producción, necesitaremos acceder a esta variable `server`
+server = app.server
