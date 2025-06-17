@@ -19,8 +19,8 @@ layout = html.Div([
 
         html.Div([
             dbc.Button("📈 Evolución Temporal", href="/temporal", color="primary", className="me-2", size="lg"),
-            dbc.Button("📊 Barras por Turno", href="/barras", color="success", className="me-2", size="lg"),
             dbc.Button("📈 Acumulado Diario", href="/acumulado", color="warning", className="me-2", size="lg"),
+            dbc.Button("📊 Barras por Turno", href="/barras", color="success", className="me-2", size="lg"),
             dbc.Button("🔥 Ver Heatmap", href="/heatmap", color="danger", className="me-2", size="lg"),
             dbc.Button("📋 Ver Tabla", href="/tabla", color="info", size="lg")
         ], style={"textAlign": "center", "marginTop": "40px"})
